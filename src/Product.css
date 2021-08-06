@@ -1,0 +1,57 @@
+.Man__images_product .images__linkg2 img{
+    margin-left: 11.4%;
+    margin-top: 4%;
+    cursor: pointer;
+    width:19%;
+    border-radius: 20px;
+}
+.Man__images_product .images__linkg2 img:hover{
+    border: 1.2px solid rgb(0, 102, 255);
+}
+
+.Gender__Button>button{
+    width: 270px;
+    margin-left: 23%;
+    margin-top: 3%;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 3px solid white;
+    background-color: black;
+    color: white;
+    font-size: 26px;
+
+}
+.Gender__Button>button:hover{
+border: 3px solid rgb(0, 102, 255);
+}
+.Gender__Button>button:active{
+    font-size: 25px;
+}
+.Man__images_product{
+    flex: 100%;
+    max-width: 100%;
+}
+@media screen and (max-width:800px) {
+    .Gender__Button>button{
+        width: 42%;
+        margin-left: 0%;
+        margin-top: 3%;
+        margin-left: 2%;
+        height: 40px;
+        font-size: 22px;
+    }
+    .Gender__Button{
+        text-align: center;
+    }
+    .Man__images_product .images__linkg2 img{
+        margin-left: 2.5%;
+        margin-top: 4%;
+        width: 46.5%;
+        border-radius: 20px;
+    }
+    .Man__images_product .images__linkg2 img:hover{
+        border: 1.2px solid rgb(0, 102, 255);
+    }
+   
+}
